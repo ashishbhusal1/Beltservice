@@ -36,9 +36,9 @@ div.logo img {
 .links:hover {
   color: #ffd300;
 }
-.active {
+.links.active {
   color: #ffd300;
 }
-.active::after {
+.links.active::after {
   background-color: #ffd300;
 }

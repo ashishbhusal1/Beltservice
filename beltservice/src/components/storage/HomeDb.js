@@ -1,7 +1,7 @@
 import { tick, cardImg1, cardImg2, apple } from "../../scripts/Images";
 
 export const HeaderMenu = [
-  { id: 1, title: "Home", link: "/" },
+  { id: 1, title: "Home", link: "/home" },
   { id: 2, title: "About", link: "/about" },
   { id: 3, title: "Services", link: "/services" },
   { id: 4, title: "FAQs", link: "/faqs" },

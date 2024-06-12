@@ -14,7 +14,13 @@ function Header() {
           {HeaderMenu.map((item) => {
             return (
               <li key={item.id}>
-                <NavLink to={item.link} className="links" activeClassname="active">{item.title}</NavLink>
+                <NavLink
+                  to={item.link}
+                  className="links"
+                  activeClassName="active"
+                >
+                  {item.title}
+                </NavLink>
               </li>
             );
           })}
