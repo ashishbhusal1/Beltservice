@@ -57,3 +57,8 @@ export const GalleryImage = {
   img2: service2,
   img3: service3,
 };
+export const ProblemContent = {
+  title: "We can solve all your problems with Your devices",
+  description:
+    "Ut ex turpis, faucibus sed feugiat ut, tempus nec nisi. Etiam venicula est ut erat congue, et pulvinar sit lorem nibh aliquet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+};

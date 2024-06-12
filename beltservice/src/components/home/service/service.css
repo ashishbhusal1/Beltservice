@@ -17,7 +17,7 @@ div.apple p {
 div.content div.desc > p {
   font-size: 48px;
   font-weight: 600;
-width: calc(82%);
+  width: calc(82%);
   border-right: 1px solid rgba(186, 181, 181, 0.678);
   padding-right: 60px;
 }
@@ -36,7 +36,7 @@ div.content div.minidesc span {
   font-size: 20px;
   color: #3474d0;
 }
-.icon{
-    gap: 12px;
-    color: #3474d0;
+.icon {
+  gap: 12px;
+  color: #3474d0;
 }

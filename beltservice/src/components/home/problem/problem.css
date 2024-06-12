@@ -1,0 +1,18 @@
+.problem {
+  margin-bottom: 100px;
+}
+.problem h2 {
+  font-size: 48px;
+  font-weight: 600;
+  border-right: 1px solid rgba(186, 181, 181, 0.678);
+  padding-right: 100px;
+  width: calc(95%);
+}
+.problem p{
+    font-family: var(--font-dm-sans);
+    font-size: 18px;
+    width: calc(90%);
+    line-height: 32px;
+    text-align: end;
+    padding-left: 100px;
+}
