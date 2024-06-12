@@ -1,8 +1,7 @@
 import React from "react";
-import { HeroContent } from "./../storage/HomeDb.js";
+import { HeroContent } from "../../storage/HomeDb.js";
 import "./hero.css";
-import { heroImg } from "../../scripts/Images.jsx";
-import { HeroCard } from "./../storage/HomeDb.js";
+import { HeroCard } from "../../storage/HomeDb.js";
 
 function Hero() {
   return (
