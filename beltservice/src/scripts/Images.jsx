@@ -3,5 +3,6 @@ import heroBg from "./../assets/heroBg.jpg";
 import heroImg from "./../assets/heroImg.png";
 import cardImg1 from "./../assets/cardImg1.png";
 import cardImg2 from "./../assets/cardImg2.png";
+import apple from './../assets/apple.png'
 
-export { tick, heroBg, heroImg, cardImg1, cardImg2 };
+export { tick, heroBg, heroImg, cardImg1, cardImg2 ,apple};

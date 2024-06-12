@@ -1,0 +1,42 @@
+.serviceWrapper {
+  height: 455px;
+  padding: 100px 0px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  width: 1050px;
+}
+div.apple {
+  justify-content: flex-start;
+  gap: 30px;
+}
+div.apple p {
+  width: calc(50%);
+  font-size: 18px;
+}
+div.content div.desc > p {
+  font-size: 48px;
+  font-weight: 600;
+width: calc(82%);
+  border-right: 1px solid rgba(186, 181, 181, 0.678);
+  padding-right: 60px;
+}
+div.content div.minidesc p {
+  font-size: 18px;
+  font-family: var(--font-dm-sans);
+  line-height: 32px;
+  text-align: end;
+  width: calc(90%);
+}
+div.content div.minidesc {
+  gap: 20px;
+  align-items: flex-end;
+}
+div.content div.minidesc span {
+  font-size: 20px;
+  color: #3474d0;
+}
+.icon{
+    gap: 12px;
+    color: #3474d0;
+}
