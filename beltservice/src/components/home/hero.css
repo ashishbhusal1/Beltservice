@@ -1,0 +1,118 @@
+.hero {
+  background-image: url("./../../assets/heroBg.jpg");
+  background-repeat: no-repeat;
+  height: 830px;
+}
+.heroContent {
+  padding-left: 280px;
+  justify-content: space-between;
+  flex: 1;
+  align-items: flex-start;
+}
+.heroContent div.title {
+  gap: 50px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+.heroContent div.title div.title1 {
+  gap: 10px;
+}
+.heroContent div.title p {
+  font-size: 18px;
+  font-family: var(--font-dm-sans);
+  color: white;
+}
+.heroContent div.title img {
+  width: 20px;
+}
+
+div.content > h1 {
+  color: white;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-size: 63px;
+  margin-bottom: 40px;
+  line-height: 72px;
+}
+div.content > p {
+  font-size: 15px;
+  color: #77797b;
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  width: calc(50%);
+}
+div.buttons {
+  gap: 20px;
+  margin-top: 82px;
+}
+div.heroCard {
+  z-index: 1;
+}
+div.heroImg {
+  background-image: url(./../../assets/heroImg.png);
+  height: 620px;
+  width: calc(45%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  background-position: 100% 20%;
+}
+.heroCard {
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  border-radius: 30px 0px 30px 30px;
+  justify-content: flex-start;
+}
+.heroCard img {
+  width: 60px;
+  padding: 15px;
+}
+.heroCard h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+.heroCard p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-weight: 400;
+  width: calc(80%);
+}
+.heroCard p {
+  position: relative;
+}
+.card1::after {
+  content: "7AM";
+  background-color: #ff9902;
+  color: white;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 30px 0px 0px 30px;
+  margin-bottom: 40px;
+margin-left: 14px;
+margin-right: -20px;
+
+
+}
+.card2::after {
+    content: "9AM";
+    background-color: #ff9902;
+    color: white;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 30px 0px 0px 30px;
+    margin-bottom: 40px;
+    margin-right: -15px;
+
+  }
+.heroImg ul {
+  gap: 10px;
+  margin-top: 190px;
+}
+.card1 {
+  margin-right: 370px;
+}
+.card2 {
+  margin-right: 170px;
+}

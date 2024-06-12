@@ -1,11 +1,14 @@
 :root {
   --primary-color: #273541;
+  --font-poppins: "Poppins", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
 }
 * {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-poppins);
+  font-weight: 400;
 }
 body {
   overflow-x: hidden;
@@ -30,4 +33,24 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.buttonPrimary {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: var(--font-dm-sans);
+  padding: 12px 42px;
+  border-radius: 35px;
+  color: white;
+  background-color: #1545f4;
+  border-style: none;
+}
+.buttonSecondary {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: var(--font-dm-sans);
+  padding: 12px 42px;
+  border-radius: 35px;
+  color: black;
+  background-color: #737b7e;
+  border-style: none;
 }
