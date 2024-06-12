@@ -1,4 +1,12 @@
-import { tick, cardImg1, cardImg2, apple } from "../../scripts/Images";
+import {
+  tick,
+  cardImg1,
+  cardImg2,
+  apple,
+  service1,
+  service2,
+  service3,
+} from "../../scripts/Images";
 
 export const HeaderMenu = [
   { id: 1, title: "Home", link: "/home" },
@@ -43,4 +51,9 @@ export const ServiceContent = {
     "Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibn, tincidunt ut eros",
   location: "Level 13, 2 Elizabeth St, Melbourne",
   mail: "Have a problem? noreply@envato.com",
+};
+export const GalleryImage = {
+  img1: service1,
+  img2: service2,
+  img3: service3,
 };
