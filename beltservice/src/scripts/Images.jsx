@@ -7,6 +7,10 @@ import apple from "./../assets/apple.png";
 import service1 from "./../assets/service1.jpg";
 import service2 from "./../assets/service2.jpg";
 import service3 from "./../assets/service3.jpg";
+import iMac from "./../assets/iMac.png";
+import mac from "./../assets/mac.png";
+import iPad from "./../assets/iPad.png";
+import iPhone from "./../assets/iPhone.png";
 
 export {
   tick,
@@ -18,4 +22,8 @@ export {
   service1,
   service2,
   service3,
+  iMac,
+  iPad,
+  iPhone,
+  mac,
 };

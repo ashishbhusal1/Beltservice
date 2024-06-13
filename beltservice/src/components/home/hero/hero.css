@@ -90,22 +90,19 @@ div.heroImg {
   padding: 3px 8px;
   border-radius: 30px 0px 0px 30px;
   margin-bottom: 40px;
-margin-left: 14px;
-margin-right: -20px;
-
-
+  margin-left: 14px;
+  margin-right: -20px;
 }
 .card2::after {
-    content: "9AM";
-    background-color: #ff9902;
-    color: white;
-    font-size: 10px;
-    padding: 3px 8px;
-    border-radius: 30px 0px 0px 30px;
-    margin-bottom: 40px;
-    margin-right: -15px;
-
-  }
+  content: "9AM";
+  background-color: #ff9902;
+  color: white;
+  font-size: 10px;
+  padding: 3px 8px;
+  border-radius: 30px 0px 0px 30px;
+  margin-bottom: 40px;
+  margin-right: -15px;
+}
 .heroImg ul {
   gap: 10px;
   margin-top: 190px;

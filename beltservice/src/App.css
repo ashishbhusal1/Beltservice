@@ -1,5 +1,7 @@
 :root {
   --primary-color: #273541;
+  --secondary-color: #1545f4;
+  --color-orange:#FF9902;
   --font-poppins: "Poppins", sans-serif;
   --font-dm-sans: "DM Sans", sans-serif;
 }
@@ -41,7 +43,7 @@ body {
   padding: 12px 42px;
   border-radius: 35px;
   color: white;
-  background-color: #1545f4;
+  background-color:var(--secondary-color);
   border-style: none;
 }
 .buttonSecondary {

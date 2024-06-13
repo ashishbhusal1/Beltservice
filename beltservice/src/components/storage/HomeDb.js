@@ -6,6 +6,10 @@ import {
   service1,
   service2,
   service3,
+  iMac,
+  mac,
+  iPad,
+  iPhone,
 } from "../../scripts/Images";
 
 export const HeaderMenu = [
@@ -61,4 +65,20 @@ export const ProblemContent = {
   title: "We can solve all your problems with Your devices",
   description:
     "Ut ex turpis, faucibus sed feugiat ut, tempus nec nisi. Etiam venicula est ut erat congue, et pulvinar sit lorem nibh aliquet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+  miniDescription: [
+    "Fusce ut velit laoreet. temous arcu eu, molestie tortor. Nam vel usto cursus, faucibus lorem eget, egestas.",
+    "Nullam consectetur auque non consequat egestas. Nam ante libero. finibus vel velit eu, luctus.",
+  ],
+  link: ["At vero eos accusam ?", "Cons eretur, sadioscindi."],
 };
+export const ProblemCard = [
+  { id: 1, img: iMac, title: "iMac", description: "Purus dolor morbi." },
+  { id: 2, img: mac, title: "mac", description: "Stet clita kasd gubergren." },
+  { id: 3, img: iPad, title: "iPad", description: "Mauris accumsan, massa." },
+  {
+    id: 4,
+    img: iPhone,
+    title: "iPhone",
+    description: "Tritique nibh,nec egestas",
+  },
+];
