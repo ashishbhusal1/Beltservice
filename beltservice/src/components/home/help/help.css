@@ -1,0 +1,108 @@
+section.help {
+  height: 470px;
+  background-image: url(./../../../assets/helpBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding: 150px 0px;
+}
+div.upperHelp {
+  width: 1050px;
+}
+div.upperHelp > img {
+  margin-right: 150px;
+}
+div.upperHelp .upperContent {
+  align-items: flex-start;
+}
+div.upperHelp .upperContent h2 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  width: calc(60%);
+}
+div.upperHelp .upperContent p {
+  font-size: 18px;
+  font-family: var(--font-dm-sans);
+  line-height: 32px;
+  width: calc(60%);
+}
+.upperContent {
+  gap: 50px;
+}
+.icons {
+  gap: 5px;
+}
+.star {
+  font-size: 18px;
+  color: white;
+  background-color: var(--color-orange);
+  padding: 10px;
+  border-radius: 100%;
+}
+.rating {
+  align-items: flex-end;
+  gap: 10px;
+}
+.rating > h3 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 46px;
+  color: white;
+}
+.rating > p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: white;
+  width: calc(80%);
+  text-align: end;
+}
+.helpCard {
+  width: 320px;
+  height: 160px;
+  background-color: white;
+  border-radius: 30px 0px 30px 30px;
+  justify-content: flex-start;
+}
+.helpCard img {
+  width: 70px;
+  padding: 15px;
+  margin-left: 20px;
+}
+.helpCard h4 {
+  font-family: var(--font-dm-sans);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.helpCard p {
+  font-family: var(--font-dm-sans);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  width: calc(95%);
+}
+.helpUl {
+  gap: 50px;
+  margin-top: 100px;
+}
+.helpCard::after {
+  background-color: #ff9902;
+  color: white;
+  font-size: 11px;
+  padding: 4px 18px;
+  border-radius: 30px 0px 0px 30px;
+  margin-bottom: 110px;
+  margin-left: 14px;
+  margin-right: -25px;
+}
+.helpCard1::after {
+  content: "5/11";
+}
+.helpCard2::after {
+  content: "3/11";
+}
+.helpCard3::after {
+  content: "2/11";
+}

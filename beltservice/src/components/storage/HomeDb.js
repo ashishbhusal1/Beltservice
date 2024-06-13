@@ -10,6 +10,10 @@ import {
   mac,
   iPad,
   iPhone,
+  apple1,
+  jonathon,
+  clara,
+  angelina,
 } from "../../scripts/Images";
 
 export const HeaderMenu = [
@@ -80,5 +84,35 @@ export const ProblemCard = [
     img: iPhone,
     title: "iPhone",
     description: "Tritique nibh,nec egestas",
+  },
+];
+export const HelpContent = {
+  title: "Here to help",
+  description: "Nullam consectetur augue non consequat egestas.",
+  img: apple1,
+  rating: "4,8",
+  ratings: "Average of our clients ratings",
+};
+export const HelpCard = [
+  {
+    id: 1,
+    img: jonathon,
+    name: "Jonathon",
+    message: "Great! Thank you for vour help!",
+    class: "helpCard flexrow helpCard1",
+  },
+  {
+    id: 2,
+    img: clara,
+    name: "Clara",
+    message: "Big, big thanks for your support!",
+    class: "helpCard flexrow helpCard2",
+  },
+  {
+    id: 3,
+    img: angelina,
+    name: "Angelina",
+    message: "Reliability and involvement.",
+    class: "helpCard flexrow helpCard3",
   },
 ];

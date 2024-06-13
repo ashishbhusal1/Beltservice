@@ -11,6 +11,10 @@ import iMac from "./../assets/iMac.png";
 import mac from "./../assets/mac.png";
 import iPad from "./../assets/iPad.png";
 import iPhone from "./../assets/iPhone.png";
+import apple1 from "./../assets/apple1.png";
+import jonathon from "./../assets/jonathon.png";
+import clara from "./../assets/clara.png";
+import angelina from "./../assets/angelina.png";
 
 export {
   tick,
@@ -26,4 +30,8 @@ export {
   iPad,
   iPhone,
   mac,
+  apple1,
+  jonathon,
+  clara,
+  angelina,
 };
