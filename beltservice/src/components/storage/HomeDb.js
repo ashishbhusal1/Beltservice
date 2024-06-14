@@ -16,6 +16,12 @@ import {
   angelina,
   aboutHero1,
   aboutHero2,
+  services1,
+  services2,
+  faq1,
+  faq2,
+  contact1,
+  contact2,
 } from "../../scripts/Images";
 
 export const HeaderMenu = [
@@ -124,4 +130,25 @@ export const HeroCardContent = {
   button: "Contact",
   img1: aboutHero1,
   img2: aboutHero2,
+};
+export const HeroServicesContent = {
+  title: "We will repair your damage",
+  description: "Maecenas non laoreet odio lobortis.",
+  button: "Go to FAQ",
+  img1: services2,
+  img2: services1,
+};
+export const HeroFaqContent = {
+  title: "Any questions?",
+  description: "Fusce ut velit laoreet.",
+  button: "Contact",
+  img1: faq1,
+  img2: faq2,
+};
+export const HeroContactContent = {
+  title: "Feel free to contact us",
+  description: "Nam vel justo cursus, fabcibus lorem.",
+  button: "Contact us",
+  img1: contact1,
+  img2: contact2,
 };

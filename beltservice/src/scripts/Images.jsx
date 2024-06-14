@@ -17,6 +17,12 @@ import clara from "./../assets/clara.png";
 import angelina from "./../assets/angelina.png";
 import aboutHero1 from "./../assets/aboutHero1.jpg";
 import aboutHero2 from "./../assets/aboutHero2.jpg";
+import services1 from "./../assets/services1.jpg";
+import services2 from "./../assets/services2.jpg";
+import faq1 from "./../assets/faq1.jpg";
+import faq2 from "./../assets/faq2.jpg";
+import contact1 from "./../assets/contact1.jpg";
+import contact2 from "./../assets/contact2.jpg";
 
 export {
   tick,
@@ -38,4 +44,10 @@ export {
   angelina,
   aboutHero1,
   aboutHero2,
+  services1,
+  services2,
+  faq1,
+  faq2,
+  contact1,
+  contact2,
 };
