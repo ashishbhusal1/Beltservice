@@ -1,0 +1,33 @@
+.heroSection {
+  background-color: var(--primary-color);
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.HeroWrapper {
+  width: 1190px;
+  gap: 100px;
+}
+.HeroImg img {
+  width: 270px;
+  height: 300px;
+}
+.HeroImg {
+  gap: 30px;
+}
+.HeroWrapper .HeroContent h1 {
+  font-size: 75px;
+  font-weight: 600;
+  line-height: 85px;
+  color: white;
+  padding-bottom: 20px;
+}
+.HeroWrapper .HeroContent p {
+  font-family: var(--font-dm-sans);
+  font-size: 18px;
+  line-height: 32px;
+  color: #7f8489;
+}
+.HeroWrapper .HeroContent button {
+  margin-top: 10px;
+  padding: 20px 40px;
+}

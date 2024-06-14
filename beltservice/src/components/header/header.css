@@ -1,5 +1,6 @@
 header {
-  background-color: rgb(39, 53, 65, 0.95);
+ /* background-color: rgb(39, 53, 65, 0.95); */
+ background-color: #273541;
   height: 60px;
   padding: 0px 25px 0px 35px;
 }

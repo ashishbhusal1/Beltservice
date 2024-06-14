@@ -15,6 +15,8 @@ import apple1 from "./../assets/apple1.png";
 import jonathon from "./../assets/jonathon.png";
 import clara from "./../assets/clara.png";
 import angelina from "./../assets/angelina.png";
+import aboutHero1 from "./../assets/aboutHero1.jpg";
+import aboutHero2 from "./../assets/aboutHero2.jpg";
 
 export {
   tick,
@@ -34,4 +36,6 @@ export {
   jonathon,
   clara,
   angelina,
+  aboutHero1,
+  aboutHero2,
 };

@@ -14,6 +14,8 @@ import {
   jonathon,
   clara,
   angelina,
+  aboutHero1,
+  aboutHero2,
 } from "../../scripts/Images";
 
 export const HeaderMenu = [
@@ -116,3 +118,10 @@ export const HelpCard = [
     class: "helpCard flexrow helpCard3",
   },
 ];
+export const HeroCardContent = {
+  title: "What can we do for You?",
+  description: "Vivamus in diam turpis maximus tristique.",
+  button: "Contact",
+  img1: aboutHero1,
+  img2: aboutHero2,
+};
