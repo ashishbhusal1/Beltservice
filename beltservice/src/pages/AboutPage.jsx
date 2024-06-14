@@ -4,6 +4,7 @@ import { HeroCardContent } from "../components/storage/HomeDb";
 import Faq from "../components/home/faq/Faq";
 import Services from "../components/about/services/Services";
 import Awards from "../components/about/awards/Awards";
+import Clients from "../components/about/clients/Clients";
 
 function AboutPage() {
   return (
@@ -17,6 +18,7 @@ function AboutPage() {
       />
       <Services />
       <Awards />
+      <Clients />
       <Faq />
     </>
   );

@@ -24,6 +24,9 @@ import {
   contact2,
   About1,
   About2,
+  clock,
+  star,
+  slide,
 } from "../../scripts/Images";
 
 export const HeaderMenu = [
@@ -168,3 +171,8 @@ export const AboutCardContent1 = {
     "Vivamus in diam turpis. In condementum maximus tristique. Macecenas non laoreet odio. Fusce lobortis porttior purus,vel vestibulum libero.",
   class: "flexrowreverse",
 };
+export const AboutClientCard = [
+  { id: 1, img: clock, title: "24/7", description: "Working time" },
+  { id: 2, img: star, title: "6244", description: "Fixed devices" },
+  { id: 3, img: slide, title: "788", description: "Daily reports" },
+];

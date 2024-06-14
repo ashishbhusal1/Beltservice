@@ -25,6 +25,9 @@ import contact1 from "./../assets/contact1.jpg";
 import contact2 from "./../assets/contact2.jpg";
 import About1 from "./../assets/About1.jpg";
 import About2 from "./../assets/About2.jpg";
+import clock from "./../assets/clock.png";
+import star from "./../assets/star.png";
+import slide from "./../assets/slide.png";
 
 export {
   tick,
@@ -54,4 +57,7 @@ export {
   contact2,
   About1,
   About2,
+  clock,
+  star,
+  slide,
 };
