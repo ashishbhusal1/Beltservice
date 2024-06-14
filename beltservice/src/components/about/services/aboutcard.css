@@ -1,0 +1,21 @@
+.ServicesCardImg img {
+  width: 510px;
+  height: 540px;
+}
+.ServicesCardContent h2 {
+  font-size: 48px;
+  line-height: 68px;
+  font-weight: 600;
+  color: #273541;
+}
+.ServicesCardContent p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: var(--font-dm-sans);
+  color: #363d40;
+}
+.ServicesCardContent {
+  padding: 50px;
+  gap: 40px;
+}

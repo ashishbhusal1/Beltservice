@@ -23,6 +23,8 @@ import faq1 from "./../assets/faq1.jpg";
 import faq2 from "./../assets/faq2.jpg";
 import contact1 from "./../assets/contact1.jpg";
 import contact2 from "./../assets/contact2.jpg";
+import About1 from "./../assets/About1.jpg";
+import About2 from "./../assets/About2.jpg";
 
 export {
   tick,
@@ -50,4 +52,6 @@ export {
   faq2,
   contact1,
   contact2,
+  About1,
+  About2,
 };

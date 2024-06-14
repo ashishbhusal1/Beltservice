@@ -22,6 +22,8 @@ import {
   faq2,
   contact1,
   contact2,
+  About1,
+  About2,
 } from "../../scripts/Images";
 
 export const HeaderMenu = [
@@ -151,4 +153,18 @@ export const HeroContactContent = {
   button: "Contact us",
   img1: contact1,
   img2: contact2,
+};
+export const AboutCardContent = {
+  img: About1,
+  title: "Our service has been operating since 2007",
+  description:
+    "Sed ultrices nisl velit, eu ornare est ullamcorper a. Nunc quis nibh magna. Proin risus erat, fringilla vel purus sit amet mattis porta enim",
+  class: "flexrow",
+};
+export const AboutCardContent1 = {
+  img: About2,
+  title: "We repair iMacs, MacBooks, iPhones and other Apple devices",
+  description:
+    "Vivamus in diam turpis. In condementum maximus tristique. Macecenas non laoreet odio. Fusce lobortis porttior purus,vel vestibulum libero.",
+  class: "flexrowreverse",
 };

@@ -1,7 +1,7 @@
 :root {
   --primary-color: #273541;
   --secondary-color: #1545f4;
-  --color-orange:#FF9902;
+  --color-orange: #ff9902;
   --font-poppins: "Poppins", sans-serif;
   --font-dm-sans: "DM Sans", sans-serif;
 }
@@ -36,6 +36,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.flexrowreverse {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
 .buttonPrimary {
   font-size: 17px;
   font-weight: 700;
@@ -43,7 +49,7 @@ body {
   padding: 12px 42px;
   border-radius: 35px;
   color: white;
-  background-color:var(--secondary-color);
+  background-color: var(--secondary-color);
   border-style: none;
 }
 .buttonSecondary {

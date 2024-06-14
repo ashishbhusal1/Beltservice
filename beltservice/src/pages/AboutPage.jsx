@@ -1,6 +1,9 @@
 import React from "react";
 import HeroSection from "../components/reusable/HeroSection";
 import { HeroCardContent } from "../components/storage/HomeDb";
+import Faq from "../components/home/faq/Faq";
+import Services from "../components/about/services/Services";
+import Awards from "../components/about/awards/Awards";
 
 function AboutPage() {
   return (
@@ -12,6 +15,9 @@ function AboutPage() {
         img1={HeroCardContent.img1}
         img2={HeroCardContent.img2}
       />
+      <Services />
+      <Awards />
+      <Faq />
     </>
   );
 }

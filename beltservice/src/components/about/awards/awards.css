@@ -1,0 +1,31 @@
+.AboutAwards {
+  background-image: url(./../../../assets/helpBg.jpg);
+  height: 750px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.AboutApple {
+  gap: 20px;
+}
+.AboutApple p {
+  font-family: var(--font-dm-sans);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #363d40;
+  width: calc(60%);
+}
+.AboutAwards h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 68px;
+  color: #273541;
+  width: calc(47%);
+}
+.AboutAwards button {
+  padding: 20px 35px;
+}
