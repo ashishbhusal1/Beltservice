@@ -3,6 +3,7 @@ import { ServiceContent } from "../../storage/HomeDb";
 import "./service.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Service() {
   return (
@@ -17,7 +18,9 @@ function Service() {
         </div>
         <div className="minidesc flexcolumn">
           <p>{ServiceContent.miniDescription}</p>
-          <button className="buttonPrimary">About us</button>
+          <Link to="/about">
+            <button className="buttonPrimary">About us</button>
+          </Link>
           <div className="flexrow icon">
             <FaLocationDot />
             <span>{ServiceContent.location}</span>

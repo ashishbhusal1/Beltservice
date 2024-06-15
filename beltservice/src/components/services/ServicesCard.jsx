@@ -13,7 +13,7 @@ function ServicesCard({
   l2,
   l3,
   l4,
-  design
+  design,
 }) {
   return (
     <section className={design}>
@@ -23,27 +23,27 @@ function ServicesCard({
         <p>{description}</p>
         <button className="buttonPrimary">Report</button>
       </div>
-      <div className="ServicesCard flexcolumn">
+      <div className="ServiceCard flexcolumn">
         <h2>{title2}</h2>
         <p>{desc1}</p>
         <p>{desc2}</p>
-        <ul className="flexrow ServicesCardUl">
-          <div className="flexcolumn ServicesCardDiv">
-            <li className="flexrow ServicesCardLi">
+        <ul className="flexrow ServiceCardUl">
+          <div className="flexcolumn ServiceCardDiv">
+            <li className="flexrow ServiceCardLi">
               <FaCheck className="check" />
               <p>{l1}</p>
             </li>
-            <li className="flexrow ServicesCardLi">
+            <li className="flexrow ServiceCardLi">
               <FaCheck className="check" />
               <p>{l2}</p>
             </li>
           </div>
-          <div className="flexcolumn ServicesCardDiv">
-            <li className="flexrow ServicesCardLi">
+          <div className="flexcolumn ServiceCardDiv">
+            <li className="flexrow ServiceCardLi">
               <FaCheck className="check" />
               <p>{l3}</p>
             </li>
-            <li className="flexrow ServicesCardLi">
+            <li className="flexrow ServiceCardLi">
               <FaCheck className="check" />
               <p>{l4}</p>
             </li>

@@ -56,7 +56,7 @@ function Footer() {
         </div>
         <div className="footerBottom flexrow">
           <p>
-            © 2021 ITService 5 - BeTheme. Muffin group - HTML by{" "}
+            © 2024 ITService. Devsign Technologies - HTML by{" "}
             <a href="#"> BeantownThemes</a>
           </p>
           <GrLinkTop />

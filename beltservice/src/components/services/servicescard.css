@@ -1,4 +1,4 @@
-.ServicesCard{
+.ServiceCard{
     gap: 20px;
     margin-top: 60px;
 }
@@ -35,18 +35,18 @@
     padding: 70px;
     align-items: flex-start;
 }
-.ServicesCardUl{
+.ServiceCardUl{
     align-items: flex-start;
     gap: 30px;
 }
-.ServicesCardLi{
+.ServiceCardLi{
     justify-content: flex-start;
 
 }
-.ServicesCardLi p{
+.ServiceCardLi p{
     margin-left: 20px;
 }
-.ServicesCardDiv{
+.ServiceCardDiv{
     align-items: flex-start;
 }
 .check{

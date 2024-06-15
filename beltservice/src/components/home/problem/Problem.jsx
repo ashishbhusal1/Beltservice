@@ -1,6 +1,7 @@
 import React from "react";
 import { ProblemCard, ProblemContent } from "../../storage/HomeDb";
 import { FaCheck } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 import "./problem.css";
 
@@ -14,10 +15,12 @@ function Problem() {
       <div className="bottom flexrow">
         <div className="problemContent flexcolumn">
           <p>{ProblemContent.miniDescription[0]}</p>
-          <button className="buttonPrimary">Services</button>
+          <Link to="/services">
+            <button className="buttonPrimary">Services</button>
+          </Link>
           <div className="problemLink flexcolumn">
             <p>
-              <FaCheck className="faCheck"/>
+              <FaCheck className="faCheck" />
               {ProblemContent.miniDescription[1]}
             </p>
             <span>{ProblemContent.link[0]}</span>

@@ -62,3 +62,6 @@ body {
   background-color: #737b7e;
   border-style: none;
 }
+button{
+  cursor: pointer;
+}

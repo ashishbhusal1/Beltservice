@@ -2,6 +2,7 @@ import React from "react";
 import { HeroContent } from "../../storage/HomeDb.js";
 import "./hero.css";
 import { HeroCard } from "../../storage/HomeDb.js";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -22,8 +23,12 @@ function Hero() {
           <p>{HeroContent[0].miniDescription}</p>
         </div>
         <div className="buttons flexrow">
-          <button className="buttonPrimary">Report a fault</button>
-          <button className="buttonSecondary">Our services</button>
+          <Link to="/contact">
+            <button className="buttonPrimary">Report a fault</button>
+          </Link>
+          <Link to="/services">
+            <button className="buttonSecondary">Our services</button>
+          </Link>
         </div>
       </div>
       <div className="heroImg">
@@ -31,7 +36,7 @@ function Hero() {
           <ul className="flexcolumn">
             {HeroCard.map((item) => {
               return (
-                <li key={item.id} className={item.class} >
+                <li key={item.id} className={item.class}>
                   <img src={item.img} alt="" />
                   <div className="cardContent">
                     <h4>{item.name}</h4>

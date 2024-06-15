@@ -1,5 +1,6 @@
 import React from "react";
 import "./faq.css";
+import { Link } from "react-router-dom";
 
 function Faq() {
   return (
@@ -11,7 +12,9 @@ function Faq() {
           <p>Duis ultricies malesuada leo vel aliquet?</p>
           <div className="faqLine"></div>
           <p>Class aptent taciti sociosqu torquent?</p>
-          <button className="buttonPrimary faqButton">FAQ's</button>
+          <Link to="/faqs">
+            <button className="buttonPrimary faqButton">FAQ's</button>
+          </Link>
         </div>
       </div>
     </section>
