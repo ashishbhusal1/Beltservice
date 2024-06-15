@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "../components/reusable/HeroSection";
 import { HeroFaqContent } from "../components/storage/HomeDb";
+import Faq from "../components/faq/contact/Faq";
 
 function FaqPage() {
   return (
@@ -12,6 +13,7 @@ function FaqPage() {
         img1={HeroFaqContent.img1}
         img2={HeroFaqContent.img2}
       />
+      <Faq />
     </>
   );
 }

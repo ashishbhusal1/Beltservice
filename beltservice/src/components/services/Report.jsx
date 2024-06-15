@@ -6,10 +6,13 @@ function Report() {
     <section className="ServicesReport">
       <div className="wrapper flexcolumn">
         <div className="ReportContent flexrow">
-          <h1>How to report a <br /> damage?</h1>
+          <h1>
+            How to report a <br /> damage?
+          </h1>
           <p>
             Ut ex turpis, faucibus sed feugiat ut, tempus nec <br /> nisi. Etiam
-            vehicula est ut erat congue, et pulvinar <br /> sit lorem nibh aliquet.
+            vehicula est ut erat congue, et pulvinar <br /> sit lorem nibh
+            aliquet.
           </p>
         </div>
         <div className="ReportNumbers">

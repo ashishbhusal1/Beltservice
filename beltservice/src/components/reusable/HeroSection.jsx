@@ -1,5 +1,4 @@
 import React from "react";
-import { aboutHero1, aboutHero2 } from "../../scripts/Images";
 import "./herosection.css";
 
 function HeroSection({ title, description, buttonText, img1, img2 }) {

@@ -1,0 +1,43 @@
+.Faq {
+  margin-top: 100px;
+}
+.FaqWrapper {
+  width: 1160px;
+}
+.FaqLeft {
+  background-image: url(./../../../assets/faqPic.jpg);
+  height: 640px;
+  width: calc(60%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.FaqRight {
+  background-color: #0e1016;
+  height: 540px;
+  width: calc(50%);
+  padding: 50px 60px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+.FaqRight > h2 {
+  font-size: 48px;
+  line-height: 68px;
+  font-weight: 600;
+  color: white;
+  width: calc(80%);
+}
+.FaqRight > p {
+  font-size: 18px;
+  line-height: 32px;
+  font-family: var(--font-dm-sans);
+  font-weight: 400;
+  color: #a6a6a7;
+  width: calc(90%);
+}
+.FaqButton {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 20px 40px;
+  font-family: var(--font-dm-sans);
+}
