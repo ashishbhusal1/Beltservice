@@ -176,3 +176,65 @@ export const AboutClientCard = [
   { id: 2, img: star, title: "6244", description: "Fixed devices" },
   { id: 3, img: slide, title: "788", description: "Daily reports" },
 ];
+export const ServicesCardContent = [
+  {
+    img: iMac,
+    title: "iMac",
+    description: "Purus dolor morbi.",
+    title2: "We repair your iMac",
+    desc1:
+      "Duis dignissim mi ut laoreet mollis. Nunc id tellus finibus, eleifend mi vel, maximus justo. Maecenas mi tortor, pellentesque a aliquam ut, fringilla eleifend lectus. Maecenas ultrices tellus sit amet sem placerat tempor. Maecenas eget arcu venenatis, sagittis felis sit amet, dictum nisl.",
+    desc2:
+      "Curabitur sed iaculis dolor, non congue ligula. Maecenas imberdiet ante eget hendrerit oosuere. Nunc urna libero, conquel porta nion a, semper teuglat sem.",
+    l1: "Fusce ut velit laoreet",
+    l2: "Tortor eget sodales mollis",
+    l3: "raucibus lorem eget",
+    l4: "Hendrerit purus, porttitor",
+    class: "ServicesCard flexrow",
+  },
+  {
+    img: mac,
+    title: "MacBook",
+    description: "Stet clita kasd gubergren.",
+    title2: "We repair your MacBook",
+    desc1:
+      "Vivamus in diam turpis. In condimentum maximus tristique. Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel. Pellentesque lorem augue, fermentum nec nibh et, fringilla sollicitudin orci. Integer pharetra magna non ante blandit lobortis. Sed mollis consequat eleifend.",
+    desc2:
+      "Aliquam consectetur orci eget dictum tristique. Aenean et sodales est, ut vestibulum lorem.",
+    l1: " Vestibulum euismod",
+    l2: " Cras massa nibh",
+    l3: " Feugiat maximus",
+    l4: "Tincidunt ut eros",
+    class: "ServicesCard flexrowreverse",
+  },
+  {
+    img: iPad,
+    title: "iPad",
+    description: "Purus dolor morbi.",
+    title2: "We repair your iPad",
+    desc1:
+      "Duis dignissim mi ut laoreet mollis. Nunc id tellus finibus, eleifend mi vel, maximus justo. Maecenas mi tortor, pellentesque a aliquam ut, fringilla eleifend lectus. Maecenas ultrices tellus sit amet sem placerat tempor. Maecenas eget arcu venenatis, sagittis felis sit amet, dictum nisl.",
+    desc2:
+      "Curabitur sed iaculis dolor, non congue ligula. Maecenas imberdiet ante eget hendrerit oosuere. Nunc urna libero, conquel porta nion a, semper teuglat sem.",
+    l1: "Fusce ut velit laoreet",
+    l2: "Tortor eget sodales mollis",
+    l3: "raucibus lorem eget",
+    l4: "Hendrerit purus, porttitor",
+    class: "ServicesCard flexrow",
+  },
+  {
+    img: iPhone,
+    title: "iPhone",
+    description: "Stet clita kasd gubergren.",
+    title2: "We repair your iPhone",
+    desc1:
+      "Vivamus in diam turpis. In condimentum maximus tristique. Maecenas non laoreet odio. Fusce lobortis porttitor purus, vel vestibulum libero pharetra vel. Pellentesque lorem augue, fermentum nec nibh et, fringilla sollicitudin orci. Integer pharetra magna non ante blandit lobortis. Sed mollis consequat eleifend.",
+    desc2:
+      "Aliquam consectetur orci eget dictum tristique. Aenean et sodales est, ut vestibulum lorem.",
+    l1: " Vestibulum euismod",
+    l2: " Cras massa nibh",
+    l3: " Feugiat maximus",
+    l4: "Tincidunt ut eros",
+    class: "ServicesCard flexrowreverse",
+  },
+];

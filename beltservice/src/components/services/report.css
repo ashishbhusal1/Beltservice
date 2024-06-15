@@ -1,0 +1,45 @@
+.ServicesReport {
+  background-image: url(./../../assets/report.jpg);
+  height: 340px;
+  padding: 150px;
+  background-repeat: no-repeat;
+}
+.ReportContent h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  color: white;
+}
+.ReportContent p {
+  font-size: 18px;
+  font-family: var(--font-dm-sans);
+  line-height: 32px;
+  color: white;
+  text-align: end;
+}
+.ReportContent {
+  gap: 150px;
+  justify-content: flex-end;
+}
+.ReportNumbers ul {
+  gap: 100px;
+  padding-top: 100px;
+}
+.ReportNumbers ul li span {
+  font-family: var(--font-dm-sans);
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  background-color: #1545f4;
+  border-radius: 100%;
+  padding: 25px 33px;
+}
+.ReportNumbers ul li p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--font-dm-sans);
+    line-height: 32px;
+    color: white;
+    text-align: center;
+    width: 80%;
+}

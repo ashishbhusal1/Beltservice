@@ -1,6 +1,8 @@
 import React from "react";
 import HeroSection from "../components/reusable/HeroSection";
 import { HeroServicesContent } from "../components/storage/HomeDb";
+import Services from "../components/services/Services";
+import Report from "../components/services/Report";
 
 function ServicesPage() {
   return (
@@ -12,6 +14,8 @@ function ServicesPage() {
         img1={HeroServicesContent.img1}
         img2={HeroServicesContent.img2}
       />
+      <Services />
+      <Report />
     </>
   );
 }

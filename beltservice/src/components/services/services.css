@@ -1,0 +1,22 @@
+.Services {
+  padding: 150px 0px;
+}
+.ServicesCheck {
+  width: calc(50%);
+  margin: 0px auto;
+  gap: 50px;
+}
+.ServicesCheck h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 68px;
+  color: #273541;
+  text-align: center;
+}
+.ServicesCheck p {
+  font-size: 18px;
+  line-height: 32px;
+  font-family: var(--font-dm-sans);
+  color: #363d40;
+  text-align: center;
+}
