@@ -13,6 +13,7 @@ function AboutPage() {
         title={HeroCardContent.title}
         description={HeroCardContent.description}
         buttonText={HeroCardContent.button}
+        link={HeroCardContent.link}
         img1={HeroCardContent.img1}
         img2={HeroCardContent.img2}
       />

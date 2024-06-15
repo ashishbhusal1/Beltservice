@@ -13,6 +13,7 @@ function ContactPage() {
         buttonText={HeroContactContent.button}
         img1={HeroContactContent.img1}
         img2={HeroContactContent.img2}
+        link={HeroContactContent.link}
       />
       <Level />
       <Form />

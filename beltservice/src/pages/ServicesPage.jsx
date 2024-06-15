@@ -13,6 +13,7 @@ function ServicesPage() {
         buttonText={HeroServicesContent.button}
         img1={HeroServicesContent.img1}
         img2={HeroServicesContent.img2}
+        link={HeroServicesContent.link}
       />
       <Services />
       <Report />

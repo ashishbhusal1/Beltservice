@@ -12,6 +12,7 @@ function FaqPage() {
         buttonText={HeroFaqContent.button}
         img1={HeroFaqContent.img1}
         img2={HeroFaqContent.img2}
+        link={HeroFaqContent.link}
       />
       <Faq />
     </>

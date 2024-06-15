@@ -132,6 +132,7 @@ export const HeroCardContent = {
   title: "What can we do for You?",
   description: "Vivamus in diam turpis maximus tristique.",
   button: "Contact",
+  link: "/contact",
   img1: aboutHero1,
   img2: aboutHero2,
 };
@@ -139,6 +140,7 @@ export const HeroServicesContent = {
   title: "We will repair your damage",
   description: "Maecenas non laoreet odio lobortis.",
   button: "Go to FAQ",
+  link: "/faqs",
   img1: services2,
   img2: services1,
 };
@@ -146,6 +148,7 @@ export const HeroFaqContent = {
   title: "Any questions?",
   description: "Fusce ut velit laoreet.",
   button: "Contact",
+  link: "/contact",
   img1: faq1,
   img2: faq2,
 };
@@ -153,6 +156,7 @@ export const HeroContactContent = {
   title: "Feel free to contact us",
   description: "Nam vel justo cursus, fabcibus lorem.",
   button: "Contact us",
+  link: "/contact",
   img1: contact1,
   img2: contact2,
 };
