@@ -10,13 +10,13 @@
   gap: 20px;
 }
 .CardImg h2,
-.CardContent h2 {
+.ServiceCard h2 {
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
   color: #273541;
 }
-.CardContent p,
+.ServiceCard p,
 .CardImg p {
   font-weight: 400;
   font-size: 18px;
@@ -28,7 +28,7 @@
     background-color: black;
     padding:20px 40px;
 }
-.CardContent{
+.ServiceCard{
     width: 550px;
     height: 440px;
     border: 1px solid #F3F3F3;

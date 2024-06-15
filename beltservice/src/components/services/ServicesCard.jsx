@@ -23,7 +23,7 @@ function ServicesCard({
         <p>{description}</p>
         <button className="buttonPrimary">Report</button>
       </div>
-      <div className="CardContent flexcolumn">
+      <div className="ServicesCard flexcolumn">
         <h2>{title2}</h2>
         <p>{desc1}</p>
         <p>{desc2}</p>
